@@ -24,7 +24,7 @@ export default class App extends React.Component {
 
 
 
-        </div> --> */};
+        </div> --> */}
     </header>
 
     <div className="quickAccess">
@@ -139,7 +139,7 @@ export default class App extends React.Component {
                         <div className="siteContainer">
 
 
-                            {/* <!-- For Space Chill --> */};
+                            {/* <!-- For Space Chill --> */}
                         <div className="siteDesc">
                             <div className="a MADEWITH">
                                 <h1 className="aHead MWHead">Made With</h1>
@@ -163,7 +163,7 @@ export default class App extends React.Component {
 
 
 
-                                {/* <!-- For Crescent's Arcana --> */};
+                                {/* <!-- For Crescent's Arcana --> */}
                             <div className="siteDesc">
                                 <div className="a MADEWITH">
                                     <h1 className="aHead MWHead">Made With</h1>
@@ -239,15 +239,15 @@ export default class App extends React.Component {
 
                 <form action="https://formspree.io/f/xrgjakzk" method="POST" className="emailForm">
                     <div className="formGroup">
-                        {/* <!-- <label for="clientName" className="label nameLabel">NAME</label> --> */};
+                        {/* <!-- <label for="clientName" className="label nameLabel">NAME</label> --> */}
                         <input required="true" placeholder="Enter Name..." type="text" id="input clientName" name="Name"/>
                     </div>
                     <div className="formGroup">
-                        {/* <!-- <label for="clientEmail" className="label emailLabel">EMAIL</label> --> */};
+                        {/* <!-- <label for="clientEmail" className="label emailLabel">EMAIL</label> --> */}
                         <input required="true" placeholder="Email Address..." type="email" id="input clientEmail" name="Email"/>
                     </div>
                     <div className="formGroup">
-                        {/* <!-- <label for="clientIdea" className="label ideaLabel">What's on your mind?</label> --> */};
+                        {/* <!-- <label for="clientIdea" className="label ideaLabel">What's on your mind?</label> --> */}
                         <textarea required="true" rows="5" placeholder="What's on your mind?" name="Message" id="message clientIdea"></textarea>
                     </div>
                     <button className="sendIdea">Submit</button>
